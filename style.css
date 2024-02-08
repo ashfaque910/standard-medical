@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar-wrapper {
+    margin-top: -8px;
+  width: 100%;
+  padding: 0rem 5rem;
+  /* height: 12.5vh; */
+  text-align: center;
+  background-color: #1e4854;
+}
+.navbar-brand {
+  margin:0.7rem 0 0 4.5rem;
+}
+.navbar-brand p{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: #cfebea;
+}
+.navbar-brand img {
+  width: 71px;
+}
+.navbar-collapse {
+  padding: 1rem 4rem;
+}
+.nav-item {
+  padding: 1rem 2rem;
+}
+.nav-link {
+  position: relative;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: #cfebea;
+  height: 0.2rem;
+  width: 0;
+  left: 0;
+  bottom: -0.01rem;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #00fbff54;
+}
+.nav-link:hover:after {
+  width: 100%;
+  border-radius: 2px;
+}
+
+/* home section */
+.jumbotron-fluid{
+ margin: 0;
+ padding: 0;
+}
+.jumbotron-wrap{
+  position: relative;
+  top: -8px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/R.jfif");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbo-content{
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+.display-4{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #771515d3;
+  letter-spacing: 0.2rem;
+}
+.lead, .btn-lg{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #143d48;
+}
+.btn-lg:hover{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #771515d3;
+  text-decoration: underline;
+}
+/* about section */
+.about-wrap{
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: #cfebea;
+}
+/* our services section */
+.card-title{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #771515d3;
+  letter-spacing: 1px;
+}
+.card-title-2{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #771515d3;
+  letter-spacing: 0.2rem;
+}
+.card-text , .form-group{
+  color: #143d48;
+}
+
+/* footer section */
+.btn{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #143d48;
+}
+.btn:hover{
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-weight: 500;
+  color: #771515d3;
+}
